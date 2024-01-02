@@ -18,9 +18,9 @@ jobs:
       UTPLSQL_VERSION: ${{matrix.utplsql-version}}
 
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        utplsql-version: [develop, v3.1.13]
+#    strategy:
+#      matrix:
+#        utplsql-version: [develop, v3.1.13]
 
     services:
       oracle:
