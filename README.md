@@ -1,14 +1,8 @@
-[![Build](https://github.com/utPLSQL/utPLSQL-demo-project/actions/workflows/build.yml/badge.svg)](https://github.com/utPLSQL/utPLSQL-demo-project/actions/workflows/build.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=utPLSQL%3AutPLSQL-demo-project&metric=alert_status)](https://sonarcloud.io/dashboard?id=utPLSQL%3AutPLSQL-demo-project)
-
-Main utPLSQL Project Build:
-[![Build Status](https://dev.azure.com/utplsql/utplsql/_apis/build/status/utPLSQL.utPLSQL-demo-project?branchName=develop)](https://dev.azure.com/utplsql/utplsql/_build/latest?definitionId=5&branchName=develop)
-
-utPLSQL build using Liquibase
-[![Build Status](https://dev.azure.com/utplsql/utplsql/_apis/build/status/utPLSQL.utPLSQL-demo-sqlcl-liquibase-cicd?branchName=develop)](https://dev.azure.com/utplsql/utplsql/_build/latest?definitionId=6&branchName=develop)
-
-utPLSQL build using RedgateFlyway
-[![Build Status](https://dev.azure.com/utplsql/utplsql/_apis/build/status/utPLSQL.utPLSQL-demo-flyway-cicd?branchName=develop)](https://dev.azure.com/utplsql/utplsql/_build/latest?definitionId=7&branchName=develop)
+[![Deploy and test](https://github.com/navratil/utPLSQL-demo-project/actions/workflows/build.yml/badge.svg)](https://github.com/navratil/utPLSQL-demo-project/actions/workflows/build.yml)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=navratil_utPLSQL-demo-project&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=navratil_utPLSQL-demo-project)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=navratil_utPLSQL-demo-project&metric=coverage)](https://sonarcloud.io/summary/new_code?id=navratil_utPLSQL-demo-project)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=navratil_utPLSQL-demo-project&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=navratil_utPLSQL-demo-project)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=navratil_utPLSQL-demo-project&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=navratil_utPLSQL-demo-project)
 
 # CI/CD and Unit Testing for Oracle PLSQL
 
