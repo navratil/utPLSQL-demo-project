@@ -2,7 +2,7 @@
 
 set -ev
 
-utPLSQL-cli/bin/utplsql run ut3_demo/ut3_demo@//127.0.0.1:1521/XE?oracle.net.disableOob=true \
+utPLSQL-cli/bin/utplsql run ut3_demo/ut3_demo@//127.0.0.1:1521/freepdb1?oracle.net.disableOob=true \
   -source_path=source -regex_expression="(\w+)/(\w+)/(R__)(\w+)\.(\w+)\.(\w+)$" \
   -owner_subexpression=4 \
   -name_subexpression=5 \
