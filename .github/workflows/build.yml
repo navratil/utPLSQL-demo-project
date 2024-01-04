@@ -15,12 +15,9 @@ jobs:
   build:
 
     env:
-      UTPLSQL_VERSION: ${{matrix.utplsql-version}}
+      UTPLSQL_VERSION: v3.1.13
 
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        utplsql-version: [v3.1.13]
 
     services:
       oracle:
@@ -49,7 +46,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install utPLSQL ${{matrix.utplsql-version}}
+      - name: Install utPLSQL ${UTPLSQL_VERSION}
         run: echo Installing ${UTPLSQL_VERSION} && sh ${{ github.workspace }}/scripts/1_install_utplsql.sh
 
       - name: Install utPLSQL-cli
